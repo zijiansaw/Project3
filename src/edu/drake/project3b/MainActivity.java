@@ -13,9 +13,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-
-//this is a test comment to make sure i'm all set up
-
 public class MainActivity extends ActionBarActivity {
 
 	ImageView dailyView;
