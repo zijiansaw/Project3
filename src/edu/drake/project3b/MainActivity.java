@@ -1,9 +1,11 @@
 package edu.drake.project3b;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Vector;
 
 import android.support.v7.app.ActionBarActivity;
+import android.app.AlarmManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -57,6 +59,11 @@ public class MainActivity extends ActionBarActivity {
 		
 		dailyView.setImageResource(images[currentDayOfYear-320]);
 		dailyView.setVisibility(View.VISIBLE);
+		
+		
+		SimpleDateFormat df = new SimpleDateFormat("MMMM dd, yyyy");
+		String date = df.format(dayOfYear.getTime());
+		setTitle(date);
 	}
 
 	@Override
@@ -77,4 +84,13 @@ public class MainActivity extends ActionBarActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
