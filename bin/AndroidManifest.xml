@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="21" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -25,6 +25,18 @@
         <activity
             android:name=".SecondActivity"
             android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".WeekFragment"
+            android:label="@string/title_activity_week_fragment" >
+        </activity>
+        <activity
+            android:name=".TodayFragment"
+            android:label="@string/title_activity_today_fragment" >
+        </activity>
+        <activity
+            android:name=".FaveFragment"
+            android:label="@string/title_activity_fave_fragment" >
         </activity>
     </application>
 

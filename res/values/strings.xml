@@ -5,5 +5,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_second">SecondActivity</string>
+    <string name="action_fave">Favorites</string>
+    <string name="action_week">This Week</string>
+    <string name="action_today">Today</string>
+    <string name="title_activity_week_fragment">WeekFragment</string>
+    <string name="title_activity_today_fragment">TodayFragment</string>
+    <string name="title_activity_fave_fragment">FaveFragment</string>
 
 </resources>
